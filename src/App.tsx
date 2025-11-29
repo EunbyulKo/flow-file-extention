@@ -69,6 +69,11 @@ function App() {
       return;
     }
 
+    if (customExts.length >= 200) {
+      alert("커스텀 확장자는 최대 200개까지만 추가할 수 있습니다.");
+      return;
+    }
+
     const result = await apiCall(
       () => addExtension(ext),
       () => alert("서버 저장 중 오류가 발생했습니다.")
