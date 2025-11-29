@@ -1,0 +1,31 @@
+.custom-extension-container {
+  margin-bottom: 15px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.custom-input {
+  width: 250px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-btn {
+  padding: 8px 14px;
+  margin-left: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #e0e0e0;
+}

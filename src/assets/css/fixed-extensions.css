@@ -1,0 +1,19 @@
+.fixed-extensions-container {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.extension-checkbox {
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.extension-label {
+  margin-left: 5px;
+}
